@@ -1,0 +1,445 @@
+@font-face {
+    font-family: 'Canopee';
+    src: url('./fonts/canopee.ttf') format('truetype'); /* Relative path */
+}
+
+@font-face {
+    font-family: 'Domaine';
+    src: url('./fonts/domaine.ttf') format('truetype'); /* Relative path */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: #222;
+    overflow-x: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #c4bcb3;
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+#nav img{
+    height: 29px;
+    width: 30%;
+}
+#nav h5{
+    font: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+#elem{
+    /* background-color: red; */
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px;
+    overflow: hidden;
+    margin-bottom: 3vh;
+}
+#elem1{
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    /* background-color: blue; */
+    
+}
+#elem2{
+    /* background-color: chocolate; */
+    height: 100%;
+    border-right: 1px solid rgb(81, 81, 81);
+    padding: 0px 20px;
+    text-align: center;
+    border-left: 1px solid rgb(81, 81, 81);
+}
+#elem3{
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    /* background-color: blue; */
+}
+#elem1 #image-div{
+    height: 55%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #1d1d1b;
+}
+#elem3 #image-div{
+    height: 55%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #1d1d1b;
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition:  all ease 0.5s;
+}
+#image-div:hover img{
+    scale: 1.1;
+}
+#elem1 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elem1 h4 span {
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+#elem1 h6 {
+    color: #454545;
+    max-width: 95%;
+    letter-spacing: -.01em;
+    margin-top: 1vw;
+    font-family: editorialnew;
+    font-size: 1.2vw;
+    font-weight: 300;
+    line-height: 1.5vw;
+}
+
+#elem3 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elem3 h4 span {
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+#elem3 h6 {
+    color: #454545;
+    max-width: 95%;
+    letter-spacing: -.01em;
+    margin-top: 1vw;
+    font-family: editorialnew;
+    font-size: 1.2vw;
+    font-weight: 300;
+    line-height: 1.5vw;
+}
+
+
+#elem2 h2 {
+    font-family: canopee;
+    font-size: 75px;
+    font-weight: 100;
+}
+
+#elem2 h3 {
+    font-family: domaine;
+    font-size: 50px;
+    /* background-color: red; */
+    color: #2f2f2f;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+#elem2 h6 {
+    font-family: domaine;
+    font-size: 20px;
+    /* background-color: red; */
+    color: #2f2f2f;
+    font-weight: 100;
+}
+#page1 h1{
+    font-size: 32vw;
+    /* font-size: 700px; */
+    /* letter-spacing: -25px; */
+    font-weight: 200;
+    font-family: canopee;
+    background-color: #1C1C19;
+    color: #C4BCB3;
+    line-height: 30vw;
+    width: 96%;
+    margin-left: 2%; 
+}
+
+/* page 2 starts */
+
+#page2{
+    height: 150vh;
+    width: 100%;
+    background-color: #C4BCB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 2vw;
+}
+#page2-left {
+    height: 100%;
+    padding-right: 3vw;
+    width: 35%;
+    /* background-color: red; */
+    border-right: 1px solid #4b4b4b;
+}
+#page2-left h2 {
+    font-size: 9vw;
+    color: #1d1d1d;
+    font-family: canopee;
+    font-weight: 50;
+    letter-spacing: 0.01vw;
+    
+}
+
+#page2-left h2 span {
+    font-size: 13vw;
+    font-weight:700;
+    line-height: 15vh;
+}
+#page2-left img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #1d1d1b;
+}
+#page2-left p {
+    font-size: 2.25vw;
+    line-height: 2.7vw;
+    text-align: left;
+    font-family: domain;
+    color: #2f2f2f;
+    margin-top: 2vh;
+}
+#page2-right {
+    height: 100%;
+    width: 75%;
+    padding-left: 3vw;
+}
+#page2-right img {
+    height: 53%;
+    object-fit: cover;
+    width: 100%;
+    border: 1px solid #1d1d1b;
+}
+#page2-right h1 {
+    letter-spacing: -.05em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2.5vw;
+    padding-right: 1.2vw;
+    font-family: domaine;
+    color: #1d1d1d;
+    font-size: 7.5vw;
+    font-weight: 400;
+    line-height: 7vw;
+    word-spacing: 0.5vw;
+}
+
+#page3 {
+    padding-bottom: 10vh;
+    position: relative;
+    background-color: #C4BCB3;
+    padding-top: 8vh;
+}
+
+#page3 h1 {
+    font-size: 30vw;
+    font-weight: 100;
+    letter-spacing: -1vw;
+    background-color: #1C1C19;
+    width: fit-content;
+    color: #C4BCB3;
+    margin-left: 2%;
+    padding: 0 2vw;
+    line-height: 27vw;
+    font-family: canopee;
+}
+
+#page3 img {
+    height: 25vw;
+    position: absolute;
+    top: 15%;
+    right: 1%;
+
+}
+
+#page4 {
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #C4BCB3;
+    padding-bottom: 10vh;
+}
+
+#page4-left {
+    width: 65%;
+    height: 100%;
+    padding: 2vh 2vw;
+    border-right: 1px solid #222 ;
+}
+
+#page4-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page4-right {
+    width: 35%;
+    height: 100%;
+    padding: 4vh 3vw;
+}
+#page4-right h1{
+    font-size: 6vw;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    font-family: domaine;
+
+}
+#page4-right h1 span{
+    font-size: 9vw;
+}
+#page4-right p {
+    font-size: 34px;
+    font-family: domaine;
+    font-weight: 50;
+    color: #2f2f2f;
+    margin-bottom: 2vh;
+    line-height: 35px;
+}
+
+#page4-right #anda {
+    height: 20vh;
+    background-color: #CAC1B6;
+    border: 1px solid #2f2f2fc6;
+    border-radius: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+#anda h1 {
+    font-size: 5vw;
+    font-weight: 100;
+    font-family: canopee;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-26%);
+    transition: all ease 0.6s;
+}
+
+#anda img {
+    height: 60px;
+    transition: all ease 0.6s;
+
+    transform: translateX(-120%);
+}
+
+#anda:hover img {
+    transform: translateX(76%);
+
+}
+
+#anda:hover h1 {
+    transform: translateX(100%);
+
+}
+
+#page5 {
+    padding: 25px 0;
+    width: 100%;
+    background-color: #C4BCB3;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#page5::-webkit-scrollbar {
+    display: none;
+}
+
+#page5 h1 {
+    font-size: 100px;
+    font-family: domain;
+    font-weight: 100;
+    display: inline-block;
+    /* background-color: red; */
+    animation-timing-function: linear;
+    margin-right: 30px;
+    animation-name: scroll;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#page5 h1 span {
+    font-family: canopee;
+    background-color: #1b1b1b;
+    color: #C4BCB3;
+    padding: 0 12px;
+}
+
+#page6 {
+    height: 100px;
+    width: 100%;
+    background-color: #C4BCB3;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - 34px));
+    }
+}
+
+#page5:hover h1{
+    animation-play-state: paused;
+}
+
+
+  
